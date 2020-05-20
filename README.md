@@ -25,3 +25,5 @@ contagem_gauge -> Conta de 1 em 1 no Gauge. No programa LabView, lembre-se de se
 acender_led -> No programa LabView, lembre-se de selecionar a porta no "VISA resource name" após conectar o Arduino no computador. Ao pressionar o botão "Acender", o led irá acender. Se despressionar o botão, o led apaga. Componentes usados: Led Difuso 5mm Vermelho e 1 Resistor 330 ohm.  <br> <br>
 
 acender_boolean_push_button -> No programa LabView, lembre-se de selecionar a porta no "VISA resource name" após conectar o Arduino no computador. Ao executar o programa no LabView, aperte o push button e o "Boolean" do LabView irá acender. Clique em "STOP" caso queira finalizar o programa. Componentes usados: 2 Resistores 330 ohm, Led Difuso 5mm Vermelho e Push Button (Chave Táctil) 6x6x6mm. <br> <br>
+
+potenciometro_gauge -> <br> <br>
