@@ -5,6 +5,9 @@ Exercícios fazendo conexão com o programa LabVIEW e o Arduino.
 ## Versão: <br>
 LabVIEW 2018 e Arduino 1.8.9
 
+## Simulação: <br>
+Possui um arquivo ".jpg" feito no programa Fritzing mostrando como o circuito foi montado. <br> <br>
+
 ## Como usar: <br>
 Carregue o programa ".ino" no Arduino, abre o arquivo ".vi" e clique em "Run".  
 
