@@ -26,4 +26,4 @@ acender_led -> No programa LabView, lembre-se de selecionar a porta no "VISA res
 
 acender_boolean_push_button -> No programa LabView, lembre-se de selecionar a porta no "VISA resource name" após conectar o Arduino no computador. Ao executar o programa no LabView, aperte o push button e o "Boolean" do LabView irá acender. Clique em "STOP" caso queira finalizar o programa. Componentes usados: 2 Resistores 330 ohm, Led Difuso 5mm Vermelho e Push Button (Chave Táctil) 6x6x6mm. <br> <br>
 
-potenciometro_gauge -> <br> <br>
+potenciometro_gauge -> No programa LabView, lembre-se de selecionar a porta no "VISA resource name" após conectar o Arduino no computador. Ao girar o Potenciômetro, o Gauge do LabView gira junto de 0 a 1023. <br> <br>
