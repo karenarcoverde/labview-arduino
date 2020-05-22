@@ -35,8 +35,8 @@ Enviar Código | Recebe
 ------------ | -------------
 ANA1: | AA 0-1023
 DIGA: | DA1/DA0
-PWM1 0-255| intensidade do led
-DIGC1/0: | led aceso ou apagado
+PWM1 0-255| Intensidade do Led
+DIGC1/0: | Led aceso ou Apagado
 
 
 <br> <br>
