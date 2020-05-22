@@ -31,5 +31,12 @@ potenciometro_gauge -> No programa LabView, lembre-se de selecionar a porta no "
 acender_led_push_button_potenciometro -> No programa LabView, lembre-se de selecionar a porta no "VISA resource name" após conectar o Arduino no computador. Ao apertar "Boolean 2", o "Meter" mostrará o valor lido pelo Potenciômetro entre 0 a 1023. Ao apertar "OK Button", o led irá acender. Ao apertar o Push Button do circuito, o "Boolean" irá acender. Componentes usados: 2 Resistores 330 ohm, Led Difuso 5mm Vermelho e Push Button (Chave Táctil) 6x6x6mm.  <br> <br>
 
 pwm_analog_digital -> 
+Enviar Código | Recebe
+------------ | -------------
+ANA1: | AA 0-1023
+DIGA: | DA1/DA0
+PWM1 0-255| intensidade do led
+DIGC1/0: | led aceso ou apagado
+
 
 <br> <br>
