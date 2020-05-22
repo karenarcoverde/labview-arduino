@@ -1,3 +1,9 @@
+//acende led totalmente, acende led controlando a intensidade, aperta push button e mostra na tela o valor lido do push button e mostra na tela o valor lido do potenciômetro
+/* ao digitar "ANA1:" -> retorna AA 0-1023
+ * ao digitar "DIGA:" -> retorna DA1 (push button pressionado)/DA0 (push button não pressionado)
+ * ao digitar "PWM1 0-255:" -> retorna a intensidade colocada no led
+ * ao digitar "DIGC1/0:" -> retorna led aceso (1) ou apagado (0)
+ */
 
 String texto;
 char caractere;
@@ -65,7 +71,7 @@ void loop()
     
   }
 
-  delay(1000);
+  delay(10);
 
   texto = "";
   codigo = "";
