@@ -3,7 +3,7 @@ Exercícios fazendo conexão com o programa LabVIEW e o Arduino.
 
 
 ## Versão: <br>
-LabVIEW 2018 e Arduino 1.8.9
+LabVIEW 2018 e Arduino IDE 1.8.9
 
 ## Simulação: <br>
 Possui um arquivo ".jpg" feito no programa Fritzing mostrando como o circuito foi montado. 
@@ -28,9 +28,9 @@ acender_boolean_push_button -> No programa LabView, lembre-se de selecionar a po
 
 potenciometro_gauge -> No programa LabView, lembre-se de selecionar a porta no "VISA resource name" após conectar o Arduino no computador. Ao girar o Potenciômetro, o Gauge do LabView gira junto de 0 a 1023. Clique em "STOP" caso queira finalizar o programa. Componentes usados: 2 Resistores 330 ohm, Led Difuso 5mm Vermelho e Push Button (Chave Táctil) 6x6x6mm. <br> <br>
 
-acender_led_push_button_potenciometro -> No programa LabView, lembre-se de selecionar a porta no "VISA resource name" após conectar o Arduino no computador. Ao apertar "Boolean 2", o "Meter" mostrará o valor lido pelo Potenciômetro entre 0 a 1023. Ao apertar "OK Button", o led acenderá. Ao apertar o Push Button do circuito, o "Boolean" acenderá. Componentes usados: 2 Resistores 330 ohm, Led Difuso 5mm Vermelho e Push Button (Chave Táctil) 6x6x6mm.  <br> <br>
+acender_led_push_button_potenciometro -> No programa LabView, lembre-se de selecionar a porta no "VISA resource name" após conectar o Arduino no computador. Ao apertar "Boolean 2", o "Meter" mostrará o valor lido pelo Potenciômetro entre 0 a 1023. Ao apertar "OK Button", o led acenderá. Ao apertar o Push Button do circuito, o "Boolean" acenderá. Clique em "STOP" caso queira finalizar o programa. Componentes usados: 2 Resistores 330 ohm, Led Difuso 5mm Vermelho e Push Button (Chave Táctil) 6x6x6mm.  <br> <br>
 
-pwm_analog_digital -> Abra o arquivo "pwm_analog_dig.vi". Ao executar este programa, lembre-se de selecionar a porta no "VISA resource name" após conectar o Arduino no computador. Dessa forma, Mude o valor do "Slide" para ter uma intensidade diferente no Led ligado ao Pino 5, aparecerá em "concatenated string" o valor da intensidade do Led. Além disso, Gire o Potenciômetro para ver o valor lido no "Gauge" de 0 a 1023. Também aperte "Boolean" para acender ou apagar o Led. Ademais, ao apertar o Push Button, o  "x=y?" ("Round Led") acenderá. Componentes usados: 2 Resistores 330 ohm, Led Difuso 5mm Vermelho e Push Button (Chave Táctil) 6x6x6mm. Segue abaixo uma tabela relacionando cada componente: <br>
+pwm_analog_digital -> Abra o arquivo "pwm_analog_dig.vi". Ao executar este programa, lembre-se de selecionar a porta no "VISA resource name" após conectar o Arduino no computador. Dessa forma, Mude o valor do "Slide" para ter uma intensidade diferente no Led ligado ao Pino 5, aparecerá em "concatenated string" o valor da intensidade do Led. Além disso, Gire o Potenciômetro para ver o valor lido no "Gauge" de 0 a 1023. Também aperte "Boolean" para acender ou apagar o Led. Ademais, ao apertar o Push Button, o  "x=y?" ("Round Led") acenderá. Clique em "STOP" caso queira finalizar o programa. Componentes usados: 2 Resistores 330 ohm, Led Difuso 5mm Vermelho e Push Button (Chave Táctil) 6x6x6mm. Segue abaixo uma tabela relacionando cada componente: <br>
 Enviar Código | Recebe | Descrição
 ------------ | ------------- | -------------
 ANA1: | AA 0-1023 | Pino A0
