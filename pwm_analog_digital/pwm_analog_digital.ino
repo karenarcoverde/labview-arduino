@@ -14,7 +14,7 @@ String codigo, valor;
 void setup() 
 {
   Serial.begin (115200);
-  pinMode(13, OUTPUT);
+  pinMode(13,OUTPUT);
   pinMode(4,OUTPUT);
 }
 
