@@ -10,6 +10,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="ANA1.vi" Type="VI" URL="../ANA1.vi"/>
+		<Item Name="Leitura AnaA0.vi" Type="VI" URL="../Leitura AnaA0.vi"/>
+		<Item Name="Leitura Dig.vi" Type="VI" URL="../Leitura Dig.vi"/>
+		<Item Name="Leitura Digvi.vi" Type="VI" URL="../Leitura Digvi.vi"/>
 		<Item Name="pwm_analog_digital.vi" Type="VI" URL="../pwm_analog_digital.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
