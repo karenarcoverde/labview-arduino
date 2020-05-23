@@ -36,7 +36,7 @@ Enviar Código | Recebe | Descrição
 ANA1: | AA 0-1023 | Pino A0
 DIGA: | DA1/DA0 | Pino 4
 PWM1 0-255| Intensidade do Led | Pino 5
-DIGC1/0: | Led aceso ou Apagado | Pino 13
+DIGC1/0: | Led Aceso ou Apagado | Pino 13
 
 
 <br> <br>
