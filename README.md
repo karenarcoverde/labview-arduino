@@ -39,3 +39,5 @@ PWM1 0-255| Intensidade do Led | Pino 5
 DIGC1/0: | Led Aceso ou Apagado | Pino 13
 
 <br> <br>
+
+temperatura_termometro_grafico -> <br> <br>
