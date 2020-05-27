@@ -44,4 +44,5 @@ temperatura_termometro_grafico -> Ao executar este programa, lembre-se de seleci
 OBS: Existe um arquivo "temp.txt" com os valores lidos durante a execução do programa. <br> <br>
 
 
-temperatura_luminosidade_grafico_termometro -> <br> <br>
+temperatura_luminosidade_grafico_termometro ->  Ao executar este programa, lembre-se de selecionar a porta no "VISA resource name" após conectar o Arduino no computador. Selecione o arquivo ".txt" que você deseja gravar os valores de temperatura. Clique em "Iniciar", enquanto a temperatura for lida o "Boolean" do LabView acenderá e o Led da montagem acenderá. O gráfico "Waveform Chart" mostra os valores de temperatura (cor branca) e os valores de luminosidade (cor vermelha). Em "Thermometer" mostra o valor lido da temperatura. Quando o valor lido da luminosidade for menor que 200, o Módulo Relé acionará outro Led e acenderá. <br>
+OBS: Pode ser utilizado uma lâmpada no lugar do Led. Componentes usados: Módulo Relé 2 Canais 5v com Optoacoplador, 2 Resistores 330 ohm, 1 Resistor 10k ohm, Led Difuso 5mm Vermelho, Led Difuso 5mm Amarelo, Sensor Temperatura LM35DZ, Sensor Fotoresistor LDR de 5mm, 1 Diodo Retificador 1N4007, Capacitor Eletrolítico 100uF e Adaptador ajustável para protoboard.   <br> <br>
