@@ -42,3 +42,6 @@ DIGC1/0: | Led Aceso ou Apagado | Pino 13
 
 temperatura_termometro_grafico -> Ao executar este programa, lembre-se de selecionar a porta no "VISA resource name" após conectar o Arduino no computador. Selecione em qual arquivo deseja colocar as informações da temperatura em "Arquivo". Clique no botão "Iniciar" para ler o valor da temperatura. Quando o sensor ler a temperatura, o "Boolean" acenderá e o Led do circuito também. O valor da temperatura lido será mostrado no "Thermometer" e no "Waveform Chart". Clique em "STOP" caso queira finalizar o programa e salvar o valor da temperatura junto com a data e hora em um arquivo (Clique em "Sim", caso queira salvar o arquivo). Componentes usados: 1 Resistor 330 ohm, Sensor Temperatura LM35DZ e Led Difuso 5mm Vermelho. 
 OBS: Existe um arquivo "temp.txt" com os valores lidos durante a execução do programa. <br> <br>
+
+
+temperatura_luminosidade_grafico_termometro -> <br> <br>
