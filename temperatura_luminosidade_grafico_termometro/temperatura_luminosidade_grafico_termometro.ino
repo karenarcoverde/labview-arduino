@@ -14,6 +14,7 @@ void setup()
   Serial.begin (115200);
   pinMode(6, OUTPUT); //PINO LED para o LM35
   pinMode (8, OUTPUT); //IN1 do relé - LED DO RELÉ para o LDR 
+  digitalWrite (8, HIGH); //DESATIVA RELÉ K1
 }
 
 void loop() 
